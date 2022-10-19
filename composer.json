@@ -1,0 +1,29 @@
+{
+    "name": "ronnie/dom-loader",
+    "description": "DOM Parser",
+    "type": "project",
+    "require-dev": {
+        "symfony/var-dumper": "^5.4"
+    },
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "Ronnie\\DomLoader\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "RonnieTaz",
+            "email": "67832502+RonnieTaz@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+      "ext-dom": "*",
+        "spatie/browsershot": "^3.57",
+        "masterminds/html5": "^2.7",
+        "symfony/dom-crawler": "^5.4",
+        "symfony/css-selector": "^5.4",
+        "cocur/slugify": "^4.2"
+    }
+}
